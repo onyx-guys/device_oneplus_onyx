@@ -50,7 +50,7 @@ on enable-low-power
     write /sys/class/devfreq/qcom,cpubw.41/governor "cpubw_hwmon"
     write /sys/class/kgsl/kgsl-3d0/devfreq/governor msm-adreno-tz
 
-    setprop sys.io.scheduler bfq
+    setprop sys.io.scheduler deadline
     start mpdecision
 
 on charger
