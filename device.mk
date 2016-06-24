@@ -154,6 +154,10 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
+# Gello
+PRODUCT_PACKAGES += \
+    Gello
+
 # Lights
 PRODUCT_PACKAGES += \
     lights.msm8974
