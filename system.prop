@@ -118,3 +118,6 @@ persist.timed.enable=true
 
 # Wifi
 wifi.interface=wlan0
+
+# sdcardfs
+ro.sys.sdcardfs=true
