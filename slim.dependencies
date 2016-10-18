@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "Slim-Mimorin/device_oppo_common",
+    "target_path": "device/oppo/common",
+    "branch": "ng7.0"
+  },
+  {
+    "repository": "CheckYourScreen/Arsenic.Kernel",
+    "target_path": "kernel/oneplus/onyx",
+    "branch": "stable"
+  }
+]
