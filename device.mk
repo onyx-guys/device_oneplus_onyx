@@ -112,6 +112,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OnyxDoze
 
+# Find7Parts
+PRODUCT_PACKAGES += \
+    Find7Parts
+
 # Graphics
 PRODUCT_PACKAGES += \
     copybit.msm8974 \
