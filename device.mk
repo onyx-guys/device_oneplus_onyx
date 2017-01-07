@@ -112,9 +112,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OnyxDoze
 
-# Find7Parts
+# OnyxParts
 PRODUCT_PACKAGES += \
-    Find7Parts
+    OnyxParts
 
 # Graphics
 PRODUCT_PACKAGES += \
