@@ -188,6 +188,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.msm8974
 
+# ADB at Boot
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1 \
+    persist.sys.usb.config=mtp,adb
+
 # RIL
 PRODUCT_PACKAGES += \
     libcnefeatureconfig \
