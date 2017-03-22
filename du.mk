@@ -24,6 +24,9 @@ $(call inherit-product, vendor/du/config/common_full_phone.mk)
 # Call the proprietary setup
 $(call inherit-product-if-exists, vendor/oneplus/onyx/onyx-vendor.mk)
 
+# UNOFFICIAL build tag
+DU_BUILD_TYPE := YumeMichi
+
 PRODUCT_NAME := du_onyx
 PRODUCT_DEVICE := onyx
 PRODUCT_MANUFACTURER := OnePlus
