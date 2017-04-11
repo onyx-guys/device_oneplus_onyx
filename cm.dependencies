@@ -1,10 +1,17 @@
 [
   {
-    "repository":  "android_kernel_oneplus_onyx",
-    "target_path": "kernel/oneplus/onyx"
+    "repository":  "YumeMichi/proprietary_vendor_oneplus_sultan",
+    "target_path": "vendor/oneplus",
+    "revision":    "cm-14.1"
   },
   {
-    "repository": "android_device_oppo_common",
-    "target_path": "device/oppo/common"
+    "repository":  "YumeMichi/kernel_oneplus_onyx",
+    "target_path": "kernel/oneplus/onyx",
+    "revision":    "cm-14.1"
+  },
+  {
+    "repository":  "Lineage-onyx/android_device_oppo_common",
+    "target_path": "device/oppo/common",
+    "revision":    "cm-14.1"
   }
 ]
