@@ -103,8 +103,8 @@
     },
     {
         "remote":      "github",
-        "repository":  "sultanxda/android_hardware_ril",
+        "repository":  "Omni-onyx/android_hardware_ril",
         "target_path": "hardware/ril",
-        "revision":    "cm-13.0-caf"
+        "revision":    "android-7.1-onyx"
     }
 ]
