@@ -86,6 +86,32 @@ etc/firmware/cpp_firmware_v1_1_1.fw
 etc/firmware/cpp_firmware_v1_1_6.fw
 etc/firmware/cpp_firmware_v1_2_0.fw
 
+# CNE / DPM
+bin/cnd
+bin/dpmd
+etc/cne/andsfCne.xml
+etc/cne/SwimConfig.xml
+etc/dpm/dpm.conf
+etc/dpm/nsrm/NsrmConfiguration.xml
+etc/permissions/cneapiclient.xml
+etc/permissions/com.qti.dpmframework.xml
+etc/permissions/com.quicinc.cne.xml
+etc/permissions/ConnectivityExt.xml
+etc/permissions/dpmapi.xml
+-framework/cneapiclient.jar
+-framework/com.qti.dpmframework.jar
+-framework/com.quicinc.cne.jar
+-framework/ConnectivityExt.jar
+-framework/dpmapi.jar
+vendor/lib/libcne.so
+vendor/lib/libcneapiclient.so
+vendor/lib/libcneconn.so
+vendor/lib/libcneqmiutils.so
+vendor/lib/libdpmframework.so
+vendor/lib/libdpmnsrm.so
+vendor/lib/libNimsWrap.so
+vendor/lib/libvendorconn.so
+
 # DRM (from bacon)
 bin/qseecomd|182eef5507dfa2d75a34f28dc9cd750ca5eacb09
 lib/libdrmdecrypt.so|5013edf1475337001f85389fa0dad8bb7755fd59
@@ -261,12 +287,10 @@ etc/data/dsi_config.xml
 etc/data/netmgr_config.xml
 etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
--framework/ConnectivityExt.jar
 -framework/qcnvitems.jar
 -framework/qcrilhook.jar
 lib/libmdmdetect.so
 lib/libparam.so
-vendor/lib/libcneapiclient.so
 vendor/lib/libconfigdb.so
 vendor/lib/liblqe.so
 vendor/lib/libnetmgr.so
