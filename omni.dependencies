@@ -105,6 +105,6 @@
         "remote":      "github",
         "repository":  "Omni-onyx/android_hardware_ril",
         "target_path": "hardware/ril",
-        "revision":    "android-7.1-onyx"
+        "revision":    "android-7.1"
     }
 ]
