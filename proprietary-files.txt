@@ -39,8 +39,6 @@ vendor/lib/libmmcamera2_vpe_module.so
 vendor/lib/libmmcamera2_wnr_module.so
 vendor/lib/libmmcamera_cac_lib.so
 vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_hdr_gb_lib.so
-vendor/lib/libmmcamera_hdr_lib.so
 vendor/lib/libmmcamera_imglib.so
 vendor/lib/libmmcamera_ov8858.so
 vendor/lib/libmmcamera_pdaf.so
@@ -154,6 +152,10 @@ vendor/lib/libscale.so
 # Graphics firmware
 etc/firmware/a330_pfp.fw
 etc/firmware/a330_pm4.fw
+
+# HDR (from bacon)
+vendor/lib/libmmcamera_hdr_gb_lib.so|fb7e1d9ce92b0778a6f3fb806ec93ba0d3a4a253
+vendor/lib/libmmcamera_hdr_lib.so|3a3c5f26a29cf260308decad08ed0782ffd10367
 
 # Listen service
 vendor/lib/liblisten.so
