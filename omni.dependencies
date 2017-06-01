@@ -37,13 +37,13 @@
     },
     {
         "remote":      "github",
-        "repository":  "LineageOS/android_external_ffmpeg",
+        "repository":  "Omni-onyx/android_external_ffmpeg",
         "target_path": "external/ffmpeg",
         "revision":    "cm-14.1"
     },
     {
         "remote":      "github",
-        "repository":  "LineageOS/android_external_stagefright-plugins",
+        "repository":  "Omni-onyx/android_external_stagefright-plugins",
         "target_path": "external/stagefright-plugins",
         "revision":    "cm-14.1"
     },
@@ -84,8 +84,8 @@
         "revision":    "android-7.1"
     },
     {
-        "remote":      "omnirom",
-        "repository":  "android_device_qcom_caf-sepolicy",
+        "remote":      "github",
+        "repository":  "Omni-onyx/android_device_qcom_caf-sepolicy",
         "target_path": "device/qcom/sepolicy",
         "revision":    "android-7.1"
     },
