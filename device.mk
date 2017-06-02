@@ -109,10 +109,6 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     rmnetcli
 
-# Doze
-PRODUCT_PACKAGES += \
-    OnyxDoze
-
 # OnyxParts
 PRODUCT_PACKAGES += \
     OnyxParts
