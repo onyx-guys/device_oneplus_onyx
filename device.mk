@@ -102,7 +102,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.msm8974 \
     libboringssl-compat \
-    Snap
+    SnapdragonCamera
 
 # Data
 PRODUCT_PACKAGES += \
