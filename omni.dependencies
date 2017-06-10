@@ -19,9 +19,9 @@
     },
     {
         "remote":      "github",
-        "repository":  "Omni-onyx/android_packages_apps_Snap",
+        "repository":  "DirtyUnicorns-onyx/android_packages_apps_Snap",
         "target_path": "packages/apps/Snap",
-        "revision":    "onyx/cm-13.0-sultan"
+        "revision":    "cm-14.1"
     },
     {
         "remote":      "github",
