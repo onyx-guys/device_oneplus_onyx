@@ -1382,6 +1382,9 @@ int QCamera2HardwareInterface::closeCamera()
 
     pthread_mutex_unlock(&m_parm_lock);
 
+    // exit notifier
+    m_cbNotifier.exit();
+
     // stop and deinit postprocessor
     m_postprocessor.stop();
     m_postprocessor.deinit();
