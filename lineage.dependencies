@@ -1,6 +1,6 @@
 [
   {
-    "repository":  "YumeMichi/proprietary_vendor_oneplus_sultan",
+    "repository":  "YumeMichi/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
     "revision":    "cm-14.1"
   },
