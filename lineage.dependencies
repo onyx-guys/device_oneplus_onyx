@@ -18,5 +18,10 @@
     "repository":  "sultanxda/android_external_sony_boringssl-compat",
     "target_path": "external/sony/boringssl-compat",
     "revision":    "cm-13.0"
+  },
+  {
+    "repository":  "sultanxda/android_hardware_qcom_camera",
+    "target_path": "hardware/qcom/camera",
+    "revision":    "onyx/cm-14.1-sultan"
   }
 ]
