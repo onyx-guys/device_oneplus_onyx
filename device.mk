@@ -37,8 +37,7 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc
 
 PRODUCT_PACKAGES += \
-    init.qcom.bt.sh \
-    init.restart.media.sh
+    init.qcom.bt.sh
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -100,7 +99,6 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8974 \
     libboringssl-compat \
     Snap
 
