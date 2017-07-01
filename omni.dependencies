@@ -19,15 +19,21 @@
     },
     {
         "remote":      "github",
-        "repository":  "DirtyUnicorns-onyx/android_packages_apps_Snap",
+        "repository":  "CertifiedBlyndGuy/android_packages_apps_Snap",
         "target_path": "packages/apps/Snap",
-        "revision":    "cm-14.1"
+        "revision":    "onyx/cm-14.1-sultan"
     },
     {
         "remote":      "github",
         "repository":  "LineageOS/android_packages_apps_FMRadio",
         "target_path": "packages/apps/FMRadio",
         "revision":    "cm-14.1"
+    },
+    {
+        "remote":      "github",
+        "repository":  "YumeMichi/android_hardware_qcom_camera",
+        "target_path": "hardware/qcom/camera",
+        "revision":    "onyx/cm-14.1-sultan"
     },
     {
         "remote":      "github",
