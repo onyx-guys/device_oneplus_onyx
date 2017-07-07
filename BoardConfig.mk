@@ -178,8 +178,6 @@ TW_TARGET_USES_QCOM_BSP := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 
 # RIL
-BOARD_PROVIDES_LIBRIL := true
-BOARD_PROVIDES_RILD := true
 FEATURE_QCRIL_UIM_SAP_SERVER_MODE := true
 
 # RPC
