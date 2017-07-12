@@ -282,7 +282,6 @@ bin/netmgrd
 bin/qmuxd
 bin/radish
 bin/rfs_access
-bin/rild
 bin/rmt_storage
 etc/data/dsi_config.xml
 etc/data/netmgr_config.xml
@@ -292,7 +291,6 @@ etc/permissions/qcrilhook.xml
 -framework/qcrilhook.jar
 lib/libmdmdetect.so
 lib/libparam.so
-lib/libril.so
 vendor/lib/libconfigdb.so
 vendor/lib/liblqe.so
 vendor/lib/libnetmgr.so
