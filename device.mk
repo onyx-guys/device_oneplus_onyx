@@ -210,11 +210,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libshims_sensors
 
-# Weather providers
-PRODUCT_PACKAGES += \
-    OpenWeatherMapWeatherProvider \
-    YahooWeatherProvider \
-    WundergroundWeatherProvider
 
 # USB
 PRODUCT_PACKAGES += \
