@@ -52,3 +52,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.rotation_locked=true \
     ro.storage_manager.enabled=true
+
+UNOFFICIAL_BUILD_ID := YumeMichi
