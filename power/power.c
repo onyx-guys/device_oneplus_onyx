@@ -94,6 +94,8 @@ static void power_hint(struct power_module *module __unused, power_hint_t hint,
 {
     if (hint == POWER_HINT_LOW_POWER) {
         set_power_profile(PROFILE_POWER_SAVE);
+    } else {
+        set_power_profile(PROFILE_BALANCED);
     }
 }
 
