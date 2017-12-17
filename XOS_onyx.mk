@@ -41,16 +41,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus-user 6.0.1 MMB29M 10281213 release-keys"
 
 # AOSP packages
-PRODUCT_PACKAGES += \
-    Launcher3 \
-    messaging \
-    SoundRecorder \
-    Terminal \
-    WallpaperPicker
+#PRODUCT_PACKAGES += \
+#    Launcher3 \
+#    messaging \
+#    SoundRecorder \
+#    Terminal \
+#    WallpaperPicker
 
 # AOSP properties
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.setupwizard.rotation_locked=true \
-    ro.storage_manager.enabled=true
-
-UNOFFICIAL_BUILD_ID := YumeMichi
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.setupwizard.rotation_locked=true \
+#    ro.storage_manager.enabled=true
